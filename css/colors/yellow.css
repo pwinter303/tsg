@@ -1,0 +1,84 @@
+
+/*
+	Theme Color :  Yellow    
+*/
+
+
+a {
+	color:#ffb400;
+}
+
+.btn-theme {
+	background-color:#ffb400;
+}
+
+/* 	header section  */
+
+.navbar {
+	background-color:#ffb400;
+}
+
+
+/* 	services section  */
+
+.icon-box-primary .icon-box-icon i {
+	color:#ffb400;
+}
+
+
+/*  work section */
+
+.pic .overlay a.link, .pic .overlay a.zoom{
+
+	background:#ffb400;
+}
+
+/*  accordion */
+
+.panel-group .panel-heading > a:after {
+	background:#ffb400;
+}
+
+/*  achievement section */
+
+.achivement-box i {
+	color:#ffb400;
+}
+
+/* team section */
+
+.team-box .team-social a:hover{
+	color:#ffb400;
+}
+
+/*  progress bar */
+
+.progress-bar-theme {
+	background:#ffb400;
+}
+
+/*  price section */
+.price-box.active .price-header {
+	background:#ffb400;
+}
+
+/*  contact section */
+
+.contact-box i {
+	color:#ffb400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

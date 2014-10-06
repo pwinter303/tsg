@@ -1,0 +1,84 @@
+
+/*
+	Theme Color :  Cyan        
+*/
+
+
+a {
+	color:#37b6bd;
+}
+
+.btn-theme {
+	background-color:#37b6bd;
+}
+
+/* 	header section  */
+
+.navbar {
+	background-color:#37b6bd;
+}
+
+
+/* 	services section  */
+
+.icon-box-primary .icon-box-icon i {
+	color:#37b6bd;
+}
+
+
+/*  work section */
+
+.pic .overlay a.link, .pic .overlay a.zoom{
+
+	background:#37b6bd;
+}
+
+/*  accordion */
+
+.panel-group .panel-heading > a:after {
+	background:#37b6bd;
+}
+
+/*  achievement section */
+
+.achivement-box i {
+	color:#37b6bd;
+}
+
+/* team section */
+
+.team-box .team-social a:hover{
+	color:#37b6bd;
+}
+
+/*  progress bar */
+
+.progress-bar-theme {
+	background:#37b6bd;
+}
+
+/*  price section */
+.price-box.active .price-header {
+	background:#37b6bd;
+}
+
+/*  contact section */
+
+.contact-box i {
+	color:#37b6bd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

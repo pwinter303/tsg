@@ -1,0 +1,84 @@
+
+/*
+	Theme Color :  Orange  
+*/
+
+
+a {
+	color:#e8643e;
+}
+
+.btn-theme {
+	background-color:#e8643e;
+}
+
+/* 	header section  */
+
+.navbar {
+	background-color:#e8643e;
+}
+
+
+/* 	services section  */
+
+.icon-box-primary .icon-box-icon i {
+	color:#e8643e;
+}
+
+
+/*  work section */
+
+.pic .overlay a.link, .pic .overlay a.zoom{
+
+	background:#e8643e;
+}
+
+/*  accordion */
+
+.panel-group .panel-heading > a:after {
+	background:#e8643e;
+}
+
+/*  achievement section */
+
+.achivement-box i {
+	color:#e8643e;
+}
+
+/* team section */
+
+.team-box .team-social a:hover{
+	color:#e8643e;
+}
+
+/*  progress bar */
+
+.progress-bar-theme {
+	background:#e8643e;
+}
+
+/*  price section */
+.price-box.active .price-header {
+	background:#e8643e;
+}
+
+/*  contact section */
+
+.contact-box i {
+	color:#e8643e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

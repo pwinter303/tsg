@@ -1,0 +1,84 @@
+
+/*
+	Theme Color :  Olive          
+*/
+
+
+a {
+	color:#b3c211;
+}
+
+.btn-theme {
+	background-color:#b3c211;
+}
+
+/* 	header section  */
+
+.navbar {
+	background-color:#b3c211;
+}
+
+
+/* 	services section  */
+
+.icon-box-primary .icon-box-icon i {
+	color:#b3c211;
+}
+
+
+/*  work section */
+
+.pic .overlay a.link, .pic .overlay a.zoom{
+
+	background:#b3c211;
+}
+
+/*  accordion */
+
+.panel-group .panel-heading > a:after {
+	background:#b3c211;
+}
+
+/*  achievement section */
+
+.achivement-box i {
+	color:#b3c211;
+}
+
+/* team section */
+
+.team-box .team-social a:hover{
+	color:#b3c211;
+}
+
+/*  progress bar */
+
+.progress-bar-theme {
+	background:#b3c211;
+}
+
+/*  price section */
+.price-box.active .price-header {
+	background:#b3c211;
+}
+
+/*  contact section */
+
+.contact-box i {
+	color:#b3c211;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

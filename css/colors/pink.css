@@ -1,0 +1,84 @@
+
+/*
+	Theme Color :  Pink       
+*/
+
+
+a {
+	color:#c71c77;
+}
+
+.btn-theme {
+	background-color:#c71c77;
+}
+
+/* 	header section  */
+
+.navbar {
+	background-color:#c71c77;
+}
+
+
+/* 	services section  */
+
+.icon-box-primary .icon-box-icon i {
+	color:#c71c77;
+}
+
+
+/*  work section */
+
+.pic .overlay a.link, .pic .overlay a.zoom{
+
+	background:#c71c77;
+}
+
+/*  accordion */
+
+.panel-group .panel-heading > a:after {
+	background:#c71c77;
+}
+
+/*  achievement section */
+
+.achivement-box i {
+	color:#c71c77;
+}
+
+/* team section */
+
+.team-box .team-social a:hover{
+	color:#c71c77;
+}
+
+/*  progress bar */
+
+.progress-bar-theme {
+	background:#c71c77;
+}
+
+/*  price section */
+.price-box.active .price-header {
+	background:#c71c77;
+}
+
+/*  contact section */
+
+.contact-box i {
+	color:#c71c77;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

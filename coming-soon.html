@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="From concept to reality, leave all the work to us. We create custom urns, planters, window boxes and wreaths that set the tone for your home's exterior">
+		<meta name="author" content="Paul Winter">
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<title>Coming soon</title>
+		<!-- Global -->
+		<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" href="css/fontawesome/font-awesome.css">
+		<!-- Google Font -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet" type="text/css">	
+			
+		<!-- Theme -->
+		<link  rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/colors/blue.css">
+		
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	
+	<body>
+		
+		<!-- countdown -->
+		<section id="countdown">
+			<div class="container">
+					
+					
+				<div class="countdown-logo">
+						<h1>easy</h1>
+				</div>
+
+				<!-- countdown-wrapper -->
+				<div class="countdown-wrapper">
+					
+					<h1>our website is under constraction</h1>	
+					<p>Will be here soon with a new website. Estimated Time Remaining:</p>
+					
+					<!-- timer -->
+					<div class="timer">
+					
+						<div class="days-wrapper">
+							<span class="days">""</span> <br>DAYS
+						</div>
+						
+						<div class="hours-wrapper">
+							<span class="hours">""</span> <br>HOURS
+						</div>
+															
+						<div class="minutes-wrapper">
+							<span class="minutes"></span> <br>MINUTES
+						</div>
+															
+						<div class="seconds-wrapper">
+							<span class="seconds"></span> <br>SECONDS
+						</div>
+			
+					</div>
+					<!-- ./timer -->
+					
+					
+				
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3">
+							<!-- newletter -->
+							<div class="newsletter">
+								<form class="form">
+									<div class="form-group">									
+										<div class="col-sm-12">
+											<input type="email" class="form-control"  placeholder="ENTER YOUR EMAIL TO SUBSCRIBE">
+										</div>
+										<div class="col-sm-12">
+											<button type="submit" class="btn btn-theme btn-block">subscribe</button>
+										</div>									
+									</div>
+								</form>
+							</div>
+							<!-- ./newletter -->	
+						</div>
+					</div>
+					
+										
+					<!-- countdown-social -->
+					<div class="countdown-social">
+						<ul class="list-inline">
+							<li><a href="#" class="rss"><i class="fa fa-rss"></i></a></li>
+							<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#" class="plus"><i class="fa fa-plus"></i></a></li>
+							<li><a href="#" class="vk"><i class="fa fa-vk"></i></a></li>
+							<li><a href="#" class="vimeo"><i class="fa fa-vimeo-square"></i></a></li>												
+							<li><a href="#" class="github"><i class="fa fa-github"></i></a></li>
+							<li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="#" class="dropbox"><i class="fa fa-dropbox"></i></a></li>
+							<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
+						</ul>
+					</div>
+					<!-- ./countdown-social -->
+					
+					
+				</div>
+				<!-- ./countdown-wrapper -->
+					
+									
+			</div>						
+		</section>
+		<!-- ./countdown -->
+		
+								
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
+		<!-- bootstrap -->
+		<script src="js/bootstrap/bootstrap.min.js"></script>		
+		<!-- countdown -->
+		<script src="js/countdown/jquery.countdown.min.js"></script>
+		
+		
+		<script>
+		$(document).ready(function( $ ) {
+			var now = new Date();
+			var countTo = 24 * 24 * 60 * 60 * 1000 + now.valueOf();    
+			$('.timer').countdown(countTo, function(event) {
+				$(this).find('.days').text(event.offset.totalDays);
+				$(this).find('.hours').text(event.offset.hours);
+				$(this).find('.minutes').text(event.offset.minutes);
+				$(this).find('.seconds').text(event.offset.seconds);
+			});
+		});	
+		</script>
+		
+		
+	</body>
+</html>
